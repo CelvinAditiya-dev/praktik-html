@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<>
+<head>
+    <title>Form Pemesanan</title>
+</head>
+<>
+
+    <h1>Form Pemesanan</h1>
+
+    <form>
+        <label for="jumlah">Jumlah:</label>
+        <input type="number" id="jumlah" name="jumlah" min="1" max="10">
+
+        <br><br>
+
+        <label for="tanggal">Tanggal Pemesanan:</label>
+        <input type="date" id="tanggal" name="tanggal">
+
+        <br><br>
+
+        <label for="telepon">Nomor Telepon:</label>
+        <input type="tel" id="telepon" name="telepon">
+
+        <br><br>
+
+        <button type="submit">Pesan</button>
+    </form>
+
+    <!DOCTYPE html>
+<>
+<head>
+    <title>Praktik 10, 11, dan 12</title>
+</head>
+<>
+
+    <!-- PRAKTIK 10 -->
+    <h1>Praktik 10 - Radio Button</h1>
+    <h2>Metode Pembayaran</h2>
+
+    <form>
+        <input type="radio" id="transfer" name="pembayaran" value="transfer">
+        <label for="transfer">Transfer Bank</label>
+
+        <br>
+
+        <input type="radio" id="cod" name="pembayaran" value="cod">
+        <label for="cod">COD</label>
+
+        <br>
+
+        <input type="radio" id="ewallet" name="pembayaran" value="ewallet">
+        <label for="ewallet">E-Wallet</label>
+
+        <br>
+
+        <input type="radio" id="qris" name="pembayaran" value="qris">
+        <label for="qris">QRIS</label>
+
+
+        <!-- PRAKTIK 11 -->
+        <h1>Praktik 11 - Checkbox</h1>
+        <h2>Minat Mahasiswa</h2>
+
+        <input type="checkbox" id="coding" name="minat" value="coding">
+        <label for="coding">Pemrograman</label>
+
+        <br>
+
+        <input type="checkbox" id="gaming" name="minat" value="gaming">
+        <label for="gaming">Gaming</label>
+
+        <br>
+
+        <input type="checkbox" id="design" name="minat" value="design">
+        <label for="design">Desain</label>
+
+        <br>
+
+        <input type="checkbox" id="olahraga" name="minat" value="olahraga">
+        <label for="olahraga">Olahraga</label>
+
+        <br>
+
+        <input type="checkbox" id="musik" name="minat" value="musik">
+        <label for="musik">Musik</label>
+
+
+        <!-- PRAKTIK 12 -->
+        <h1>Praktik 12 - Select dan Option</h1>
+
+        <h2>Program Studi</h2>
+
+        <label for="prodi">Program Studi:</label>
+        <select id="prodi" name="prodi">
+            <option value="rpl">Rekayasa Perangkat Lunak</option>
+            <option value="bd">Bisnis Digital</option>
+            <option value="si">Sistem Informasi</option>
+            <option value="ti">Teknik Informatika</option>
+            <option value="mi">Manajemen Informatika</option>
+        </select>
+
+        <br><br>
+
+        <label for="kota">Kota:</label>
+        <select id="kota" name="kota">
+            <option value="jepara">Jepara</option>
+            <option value="kudus">Kudus</option>
+            <option value="pati">Pati</option>
+            <option value="demak">Demak</option>
+            <option value="semarang">Semarang</option>
+        </select>
+
+        <br><br>
+
+        <label for="kategori">Kategori Produk:</label>
+        <select id="kategori" name="kategori">
+            <option value="elektronik">Elektronik</option>
+            <option value="pakaian">Pakaian</option>
+            <option value="makanan">Makanan</option>
+            <option value="minuman">Minuman</option>
+            <option value="aksesoris">Aksesoris</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Kirim</button>
+
+    </form>
+
+    <!DOCTYPE html>
+<>
+<head>
+    <title>Praktik 13, 14, dan 15</title>
+</head>
+<>
+
+    <!-- PRAKTIK 13 -->
+    <h1>Praktik 13 - Textarea</h1>
+
+    <h2>Formulir Pesan</h2>
+
+    <form>
+
+        <label for="alamat">Alamat:</label>
+        <br>
+        <textarea id="alamat" name="alamat" rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <label for="pesan">Pesan:</label>
+        <br>
+        <textarea id="pesan" name="pesan" rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <label for="deskripsi">Deskripsi Produk:</label>
+        <br>
+        <textarea id="deskripsi" name="deskripsi" rows="5" cols="40"></textarea>
+
+        <br><br>
+
+
+        <!-- PRAKTIK 14 -->
+        <h1>Praktik 14 - Required, Placeholder, dan Value</h1>
+
+        <label for="nama">Nama:</label>
+        <br>
+        <input
+            type="text"
+            id="nama"
+            name="nama"
+            placeholder="Masukkan nama lengkap"
+            required
+        >
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="nama@email.com"
+            required
+        >
+
+        <br><br>
+
+        <label for="nim">NIM:</label>
+        <br>
+        <input
+            type="text"
+            id="nim"
+            name="nim"
+            placeholder="Masukkan NIM"
+            required
+        >
+
+        <br><br>
+
+        <label for="status">Status:</label>
+        <br>
+        <input
+            type="text"
+            id="status"
+            name="status"
+            value="Mahasiswa"
+        >
+
+        <br><br>
+
+
+        <!-- PRAKTIK 15 -->
+        <h1>Praktik 15 - Button</h1>
+
+        <label for="username">Username:</label>
+        <br>
+        <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Masukkan username"
+        >
+
+        <br><br>
+
+        <button type="submit">Kirim</button>
+
+        <button type="reset">Reset</button>
+
+        <button type="button">Tombol Biasa</button>
+
+    </form>
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Form Registrasi Mahasiswa</title>
+</head>
+<body>
+
+    <h1>Form Registrasi Mahasiswa</h1>
+
+    <form>
+
+        <!-- Nama -->
+        <label for="nama">Nama Lengkap:</label>
+        <br>
+        <input
+            type="text"
+            id="nama"
+            name="nama"
+            placeholder="Masukkan nama lengkap"
+            required
+        >
+
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <br>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="nama@email.com"
+            required
+        >
+
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <br>
+        <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Masukkan password"
+            required
+        >
+
+        <br><br>
+
+        <!-- Tanggal lahir -->
+        <label for="tanggal_lahir">Tanggal Lahir:</label>
+        <br>
+        <input
+            type="date"
+            id="tanggal_lahir"
+            name="tanggal_lahir"
+            required
+        >
+
+        <br><br>
+
+        <!-- Nomor telepon -->
+        <label for="telepon">Nomor Telepon:</label>
+        <br>
+        <input
+            type="tel"
+            id="telepon"
+            name="telepon"
+            placeholder="08xxxxxxxxxx"
+            required
+        >
+
+        <br><br>
+
+        <!-- Jenis kelamin / Radio -->
+        <label>Jenis Kelamin:</label>
+        <br>
+
+        <input
+            type="radio"
+            id="laki"
+            name="jenis_kelamin"
+            value="laki-laki"
+            required
+        >
+        <label for="laki">Laki-laki</label>
+
+        <br>
+
+        <input
+            type="radio"
+            id="perempuan"
+            name="jenis_kelamin"
+            value="perempuan"
+        >
+        <label for="perempuan">Perempuan</label>
+
+        <br><br>
+
+        <!-- Hobi / Checkbox -->
+        <label>Hobi:</label>
+        <br>
+
+        <input
+            type="checkbox"
+            id="coding"
+            name="hobi"
+            value="coding"
+        >
+        <label for="coding">Coding</label>
+
+        <br>
+
+        <input
+            type="checkbox"
+            id="gaming"
+            name="hobi"
+            value="gaming"
+        >
+        <label for="gaming">Gaming</label>
+
+        <br>
+
+        <input
+            type="checkbox"
+            id="olahraga"
+            name="hobi"
+            value="olahraga"
+        >
+        <label for="olahraga">Olahraga</label>
+
+        <br>
+
+        <input
+            type="checkbox"
+            id="musik"
+            name="hobi"
+            value="musik"
+        >
+        <label for="musik">Musik</label>
+
+        <br><br>
+
+        <!-- Program Studi / Select -->
+        <label for="prodi">Program Studi:</label>
+        <br>
+
+        <select id="prodi" name="prodi" required>
+            <option value="">-- Pilih Program Studi --</option>
+            <option value="rpl">Rekayasa Perangkat Lunak</option>
+            <option value="bd">Bisnis Digital</option>
+            <option value="si">Sistem Informasi</option>
+            <option value="ti">Teknik Informatika</option>
+            <option value="mi">Manajemen Informatika</option>
+        </select>
+
+        <br><br>
+
+        <!-- Alamat / Textarea -->
+        <label for="alamat">Alamat:</label>
+        <br>
+
+        <textarea
+            id="alamat"
+            name="alamat"
+            rows="5"
+            cols="40"
+            placeholder="Masukkan alamat lengkap"
+            required
+        ></textarea>
+
+        <br><br>
+
+        <!-- Tombol -->
+        <button type="submit">Daftar</button>
+
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
+
+

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+
+    <header>
+        <h1>Form Pendaftaran Kegiatan</h1>
+        <p>Silakan isi data dengan benar.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a> |
+        <a href="informasi.html">Informasi</a> |
+        <a href="pendaftaran.html">Pendaftaran</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Formulir Pendaftaran</h2>
+
+            <form>
+
+                <label for="nama">Nama Lengkap:</label><br>
+                <input
+                    type="text"
+                    id="nama"
+                    name="nama"
+                    placeholder="Masukkan nama lengkap"
+                    required
+                >
+
+                <br><br>
+
+                <label for="email">Email:</label><br>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="nama@email.com"
+                    required
+                >
+
+                <br><br>
+
+                <label for="telepon">Nomor Telepon:</label><br>
+                <input
+                    type="tel"
+                    id="telepon"
+                    name="telepon"
+                    placeholder="08xxxxxxxxxx"
+                    required
+                >
+
+                <br><br>
+
+                <label for="kegiatan">Pilih Kegiatan:</label><br>
+                <select id="kegiatan" name="kegiatan" required>
+                    <option value="">-- Pilih Kegiatan --</option>
+                    <option value="seminar">Seminar</option>
+                    <option value="praktik">Praktik</option>
+                    <option value="diskusi">Diskusi</option>
+                </select>
+
+                <br><br>
+
+                <p>Jenis Kelamin:</p>
+
+                <input
+                    type="radio"
+                    id="laki"
+                    name="jenis_kelamin"
+                    value="laki-laki"
+                    required
+                >
+                <label for="laki">Laki-laki</label>
+
+                <input
+                    type="radio"
+                    id="perempuan"
+                    name="jenis_kelamin"
+                    value="perempuan"
+                >
+                <label for="perempuan">Perempuan</label>
+
+                <br><br>
+
+                <p>Fasilitas yang Dibutuhkan:</p>
+
+                <input
+                    type="checkbox"
+                    id="sertifikat"
+                    name="fasilitas"
+                    value="sertifikat"
+                >
+                <label for="sertifikat">Sertifikat</label>
+
+                <br>
+
+                <input
+                    type="checkbox"
+                    id="konsumsi"
+                    name="fasilitas"
+                    value="konsumsi"
+                >
+                <label for="konsumsi">Konsumsi</label>
+
+                <br>
+
+                <input
+                    type="checkbox"
+                    id="materi"
+                    name="fasilitas"
+                    value="materi"
+                >
+                <label for="materi">Materi Kegiatan</label>
+
+                <br><br>
+
+                <label for="alamat">Alamat:</label><br>
+                <textarea
+                    id="alamat"
+                    name="alamat"
+                    rows="4"
+                    cols="40"
+                    placeholder="Masukkan alamat lengkap"
+                ></textarea>
+
+                <br><br>
+
+                <button type="submit">Daftar</button>
+                <button type="reset">Reset</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright 2026 - Portal Kegiatan Mahasiswa</p>
+    </footer>
+
+</body>
+</html>
